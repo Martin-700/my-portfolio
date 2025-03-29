@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body  {
+    scroll-behavior: smooth;
+}
+/* header or navigation*/
+header  {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px  100px;
+    background-color:#f8f9fa;
+    box-shadow:  0 2px  4px rgba(52, 52, 52,  0.1);
+
+}
+
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.logo  h1{
+    background-color:  rgb(190,8, 245);
+    color: white;
+    font-size: 1.5rem;
+    padding: 6px 12px;
+    border-radius: 100%;
+
+}
+
+header nav ul{
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    list-style: none;
+}
+
+ nav ul li a{
+   text-decoration: none;
+   color: rgb(46,46, 46);
+   font-size: 1rem;
+    
+
+
+ }
+ .contact-btn{
+    background-color: rgb(190,8, 245);
+    color: white;
+    padding: 8px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+ }
+ .contact-btn:hover{
+    background-color: white;
+    color: rgb(190,8, 245);
+    border: 1px solid rgb(190,8, 245);
+ }
+ /* home section */
+ section{
+padding: 50px 100px;
+ }
+ .top-card{
+    display: flex;
+    align-items: self start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+
+ }
+ .detail-cont{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+ }
+.detail-cont h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+ .sub-detail {
+    font-size:1rem;
+    color:silver;
+    margin-bottom:20px;
+ }
+.detail-cont button{
+    background-color: rgb(190,8, 245);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight:500;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 120px;
+    
+}
+ .card-holder{
+    display: flex;
+    width:100%;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: rgb(245,227, 250);
+    height: auto;
+}
+
+.exp-card{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:15px;
+    
+}
+.exp-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    gap: 10px;
+    color: rgb(0,0, 0);
+
+}
+p{
+    font-size:1rem;
+    font-weight: 600px;
+}
+.exp-details span {
+     color:blue;
+}
+
+
+.exp-card > div:nth-child(2){
+border:1px solid white;
+
+}
+.card-holder{
+    background-color: rgb(190,8, 245);
+    color:white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius:1px;
+    
+    
+    
+}
+.btn2:hover{
+    background-color:white;
+    border: 1px solid rgb(190,8, 245);
+    color: rgb(190,8, 245);
+    
+}
+    
+
+
+
+ .img-container{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    background-color: blue;
+ }
+img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
